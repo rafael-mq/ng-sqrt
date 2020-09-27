@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: red;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-content: flex-end; */
+    justify-content: center;
+}

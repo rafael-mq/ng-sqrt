@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-sqrt"
+    }
+  },
+  "defaultProject": "ng-sqrt",
+  "cli": {
+    "analytics": false
+  }
 }

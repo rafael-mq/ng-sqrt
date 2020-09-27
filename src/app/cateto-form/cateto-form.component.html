@@ -1,0 +1,29 @@
+<div>
+
+    <label>
+        Cateto A
+        <input
+            type="number"
+            autofocus
+            [(ngModel)]="catetoA"
+            (keyup)="calculate()"
+        >
+    </label>
+
+    <label>
+        Cateto B
+        <input
+            type="number"
+            [(ngModel)]="catetoB"
+            (keyup)="calculate()"
+        >        
+    </label>
+
+    <p
+        *ngIf="mensagem"
+    >{{ mensagem }}</p>
+
+    <h3>
+        Hipotenusa: {{ hipotenusa }}
+    </h3>
+</div>
